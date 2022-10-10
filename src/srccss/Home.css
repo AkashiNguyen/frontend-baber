@@ -1,0 +1,115 @@
+.main-content{
+    height: auto;
+    color: white;
+    background-color: black;
+}
+.imgca1{
+    height:500px;
+}
+.imgca2{
+    height:500px;
+}
+.imgca3{
+    height:500px;
+}
+h3{
+    color: black;
+}
+p{
+    color: black;
+}
+.first-slide{
+    color: white;
+}
+.second-slide{
+    color: white;
+}
+
+.card-top > img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin: 10px 0 0 30px;
+}
+.card-top h1{
+    margin: 0 0 0 30px;
+}
+.card-top p{
+    margin: 0 0 0 25px;
+    color: white;
+}
+
+.Best_hair_dresser > h1{
+    text-align: center;
+}
+.Best_hair_dresser > h2{
+    color: white;
+    text-align: center;
+}
+.Best_hair_dresser {
+   
+   margin: 0 auto;
+   width: 70%;
+   background-color: #FF8C00;
+    
+}
+.card{
+    border: solid 2px gray;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+
+}
+.slick-slide > div{
+    margin: 0 10px;
+}
+.Service{
+    
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.service-text p{
+ color: black;
+}
+.service-text h4{
+    color: black;
+}
+.service-logo{
+    
+}
+
+.service-item{
+    border: solid 2px black;
+    border-radius: 30px;
+    width: full;
+    margin-top: 15px;
+    background-color: #FF8C00;
+}
+.content{
+    margin: 0 50px 0 50px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.Celeb{
+    
+    margin: 30px auto;
+    background-color: #FF8C00;
+    width: 65%;
+    text-align: center;
+}
+.card-top1{
+    width: auto;
+    height: auto;
+}
+.card-top1 > img{
+  width: 50%;
+  height: 40%;
+  margin-left: 77px;
+}
