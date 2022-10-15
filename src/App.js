@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Header from './component/header'
+import Header from './component/header';
 import Footer from './component/footer';
-import Home from './component/Home-page'
+import Home from './component/Home-page';
 function App() {
   return (
-    <div>
+    <React.Fragment>
+    <Header/>
     <Home/>
-    </div>
+    <Footer/>
+   </React.Fragment>
     
     
     

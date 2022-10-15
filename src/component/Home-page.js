@@ -2,13 +2,26 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import imgca1 from '../assets/khungcanh.jpeg';
 import imgca2 from '../assets/baber.jpeg';
-import imgca3 from '../assets/place.jpeg';
+import imgca3 from '../assets/place.webp';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../srccss/Home.css';
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import {Best_hair_dresser, celeboration } from './data/data';
+import img1 from '../assets/undercut.jpeg';
+import img2 from '../assets/side-part.webp';
+import img3 from '../assets/mullet.webp';
+import img4 from '../assets/mohican.jpeg';
+import img5 from '../assets/layer.jpeg';
+import img6 from '../assets/5:5.jpeg';
+import img7 from '../assets/romano.png';
+import img8 from '../assets/dabo.jpeg';
+import img9 from '../assets/cetaphill.jpeg';
+import img10 from '../assets/lady-killer.jpeg';
+import img11 from '../assets/loreal.jpeg';
+import img12 from '../assets/sap-vuot-toc.jpeg';
+
 
 export default function Homepage() {
     const settings = {
@@ -89,10 +102,7 @@ export default function Homepage() {
         src={imgca1} 
         alt="First slide"
       />
-      <Carousel.Caption>
-        <h3 className='first-slide'>First slide label</h3>
-        <p className='first-slide'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Caption>
+     
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -101,10 +111,7 @@ export default function Homepage() {
         alt="Second slide"
       />
 
-      <Carousel.Caption>
-        <h3 className='second-slide'>Second slide label</h3>
-        <p className='second-slide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
+     
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -113,12 +120,7 @@ export default function Homepage() {
         alt="Third slide"
       />
 
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
-      </Carousel.Caption>
+      
     </Carousel.Item>
   </Carousel>
     </div>
@@ -137,6 +139,160 @@ export default function Homepage() {
        ))}
     </Slider>
     </div>
+
+    <section id="portfolio_area">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="port_title text-center">
+            
+            <h2>Our Famous Hairstyle </h2>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img1} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  <h4 className="project_title">Undercut</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  Asymertrical undercut hay còn gọi là kiểu tóc nam bất đối xứng. 
+                  Kiểu tóc này có phần chân tóc cạo gần đến đỉnh đầu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img2} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  <h4 className="project_title">Side Part</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  Side Part là kiểu tóc vô cùng lịch lãm và không bao giờ lỗi thời dành cho phái mạnh. 
+                  Kiểu Side Part sẽ chia tóc và chải tóc của các chàng trai về cùng một bên
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img3} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  <h4 className="project_title">Mullet</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  Tóc mullet hay còn được gọi là “tóc cá đối”. Có đặc điểm khá đặc biệt khi phần tóc 
+                  hai bên đầu được cắt ngắn hoặc cạo đi, phần tóc mái và phần tóc đuôi thường 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img4} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  <h4 className="project_title">Mohican</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  Mohican là kiểu tóc quen thuộc của của các bạn nam Việt Nam những năm gần đây. 
+                  Mohican là kiểu tóc có phần nghịch ngợm, nổi loạn, với mái tóc được cạo, cắt ngắn 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img5} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  <h4 className="project_title">Layer ngắn</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  tóc layer nam ngắn, xoăn nhẹ bồng bềnh để tăng phần quyến rũ, 
+                  thu hút cho gương mặt của mình nhé.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="project_item text-center mt--40">
+            <div className="project_item_img">
+              <div className="project_thumbnail">
+                <img src={img6} alt="" />
+              </div>
+            </div>
+            <div className="project_item_content">
+              <div className="project_inner">
+                <div className="project_head">
+                  
+                  <h4 className="project_title">Side-part 5/5</h4>
+                </div>
+                <div className="project_hover">
+                  <p>
+                  Với kiểu tóc side part 5/5, người đàn ông sở hữu kiểu tóc này 
+                  sẽ dễ dàng chiếm được cảm tình bởi sự điển trai, phong cách lịch lãm
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
     
   <div className='Service text-center '>
       <h1>What we can do for you</h1>
@@ -195,6 +351,39 @@ export default function Homepage() {
      ))}
   </Slider>
   </div>
+  <section id="our-clients">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12 text-center">
+        <div className="client-title">
+          
+          <h2 className="project_title">Our Donor</h2>
+          
+        </div>
+      </div>
+    </div>
+    <div className="row .client_content">
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+        <img src={img7} alt=""/>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+      <img src={img8} alt=""/>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+      <img src={img9} alt=""/>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+      <img src={img10} alt=""/>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+      <img src={img11} alt=""/>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12 client_item">
+      <img src={img12} alt=""/>
+      </div>
+    </div>
+  </div>
+</section>
 
     </div>
     
